@@ -3,7 +3,7 @@ import GroupedHistory from '../../@types/Lists/GroupedHistory';
 
 /**
  * Sorts the grouped history by year in descending order
- * @param groupedHistory - Grouped history object
+ * @param {GroupedHistory} groupedHistory - Grouped history object
  * @returns Sorted grouped history object
  */
 const sortByYear = (groupedHistory: GroupedHistory) => {

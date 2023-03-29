@@ -3,8 +3,8 @@ import GroupedHistory from '../../@types/Lists/GroupedHistory';
 
 /**
  * Groups history by year
- * @param history - Array of history objects
- * @returns Grouped history
+ * @param {HistoryArrayProps} history - Array of history objects
+ * @returns {GroupedHistory} Grouped history
  */
 const groupHistory = ({history}: HistoryArrayProps) => {
   const groupedHistory: GroupedHistory = history.reduce((group, item) => {
