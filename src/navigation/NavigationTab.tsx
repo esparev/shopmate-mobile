@@ -2,6 +2,7 @@ import React from 'react';
 import {Image} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {HomeStackNavigator} from './StackNavigator';
+import HistoryStackNavigator from './HistoryStackNavigator';
 import color from '../styles/color';
 import font from '../styles/font';
 import icon from '../styles/icon';
@@ -63,7 +64,7 @@ const NavigationTab = (): JSX.Element => {
       />
       <Tab.Screen
         name="History"
-        component={HomeStackNavigator}
+        component={HistoryStackNavigator}
         options={{
           ...options,
           tabBarIcon: ({focused}: {focused: boolean}) => {
