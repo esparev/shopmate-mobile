@@ -3,6 +3,7 @@ import {Image} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {HomeStackNavigator} from './StackNavigator';
 import HistoryStackNavigator from './HistoryStackNavigator';
+import StoreStackNavigator from './StoreStackNavigator';
 import color from '../styles/color';
 import font from '../styles/font';
 import icon from '../styles/icon';
@@ -49,7 +50,7 @@ const NavigationTab = (): JSX.Element => {
       />
       <Tab.Screen
         name="Stores"
-        component={HomeStackNavigator}
+        component={StoreStackNavigator}
         options={{
           ...options,
           tabBarIcon: ({focused}: {focused: boolean}) => {
