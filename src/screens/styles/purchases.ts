@@ -8,8 +8,6 @@ import font from '../../styles/font';
 const purchases = StyleSheet.create({
   screen: {
     height: '100%',
-    rowGap: 20,
-    paddingBottom: 28,
     backgroundColor: color.white_100,
   },
   header: {

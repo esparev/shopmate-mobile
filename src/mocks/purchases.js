@@ -21,7 +21,7 @@ const purchases = [
     location: 'Monterrey',
     total: 980.75,
     date: '2022-03-24T11:15:00Z',
-    paymentNetwork: 'American Express',
+    paymentNetwork: 'Amex',
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const purchases = [
     location: 'Monterrey',
     total: 195.5,
     date: '2022-03-20T11:30:00Z',
-    paymentNetwork: 'American Express',
+    paymentNetwork: 'Amex',
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const purchases = [
     location: 'Guadalajara',
     total: 80.0,
     date: '2022-03-17T10:45:00Z',
-    paymentNetwork: 'American Express',
+    paymentNetwork: 'Amex',
   },
 ];
 

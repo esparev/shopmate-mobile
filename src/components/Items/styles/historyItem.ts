@@ -4,10 +4,8 @@ import font from '../../../styles/font';
 
 const historyItem = StyleSheet.create({
   item: {
-    paddingTop: 16,
-    paddingBottom: 16,
-    paddingLeft: 28,
-    paddingRight: 28,
+    paddingVertical: 16,
+    paddingHorizontal: 28,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -26,8 +24,7 @@ const historyItem = StyleSheet.create({
   },
   year: {
     paddingTop: 16,
-    paddingLeft: 28,
-    paddingRight: 28,
+    paddingHorizontal: 28,
     fontFamily: font.inter.semiBold,
     fontSize: 16,
     color: color.gray_300,
