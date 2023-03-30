@@ -8,14 +8,12 @@ import font from '../../styles/font';
 const history = StyleSheet.create({
   screen: {
     height: '100%',
-    paddingTop: 28,
-    paddingBottom: 28,
     rowGap: 20,
+    paddingVertical: 28,
     backgroundColor: color.white_100,
   },
   title: {
-    paddingLeft: 28,
-    paddingRight: 28,
+    paddingHorizontal: 28,
     textTransform: 'capitalize',
     fontFamily: font.manrope.extraBold,
     fontSize: 24,
