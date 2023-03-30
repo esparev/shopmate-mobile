@@ -6,7 +6,11 @@ import color from '../styles/color';
 import orders from './styles/orders';
 import ordersMock from '../mocks/orders';
 
-const Orders = () => {
+/**
+ * Orders Screen
+ * @returns {JSX.Element} JSX.Element
+ */
+const Orders = (): JSX.Element => {
   let ordersTotal = 0;
 
   ordersMock.forEach(order => {

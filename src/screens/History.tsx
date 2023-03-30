@@ -6,6 +6,10 @@ import color from '../styles/color';
 import history from './styles/history';
 import historyMock from '../mocks/history';
 
+/**
+ * History Screen
+ * @returns {JSX.Element} JSX.Element
+ */
 const History = (): JSX.Element => {
   return (
     // Screen

@@ -8,8 +8,8 @@ import home from './styles/home';
 const shoppingCartInactive = '../assets/icons/shopping-cart-white-inactive.png';
 
 /**
- * Home component of the app
- * @returns JSX.Element
+ * Home Screen
+ * @returns {JSX.Element} JSX.Element
  */
 const Home = (): JSX.Element => {
   return (
