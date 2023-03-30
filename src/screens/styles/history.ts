@@ -2,6 +2,9 @@ import {StyleSheet} from 'react-native';
 import color from '../../styles/color';
 import font from '../../styles/font';
 
+/**
+ * History screen styles
+ */
 const history = StyleSheet.create({
   screen: {
     height: '100%',
