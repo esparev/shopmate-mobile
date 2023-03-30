@@ -18,7 +18,7 @@ const HistoryItem = (props: HistoryItemProps) => {
   return (
     <TouchableOpacity
       style={historyItem.item}
-      onPress={() => navigation.push('Purchases')}>
+      onPress={() => navigation.push('Orders')}>
       <Text style={historyItem.month}>
         {moment.monthsShort(history.month)}{' '}
         {isCurrentYear ? null : history.year.toString().substring(2)}

@@ -3,9 +3,9 @@ import color from '../../styles/color';
 import font from '../../styles/font';
 
 /**
- * Purchases screen styles
+ * Orders screen styles
  */
-const purchases = StyleSheet.create({
+const orders = StyleSheet.create({
   screen: {
     height: '100%',
     backgroundColor: color.white_100,
@@ -51,4 +51,4 @@ const purchases = StyleSheet.create({
   },
 });
 
-export default purchases;
+export default orders;

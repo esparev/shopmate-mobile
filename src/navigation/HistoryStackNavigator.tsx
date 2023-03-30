@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import History from '../screens/History';
-import Purchases from '../screens/Purchases';
+import Orders from '../screens/Orders';
 import HistoryStackParamList from '../@types/Navigation/HistoryStackParamList';
 
 const Stack = createStackNavigator<HistoryStackParamList>();
@@ -16,7 +16,7 @@ const HistoryStackNavigator = (): JSX.Element => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="History" component={History} options={options} />
-      <Stack.Screen name="Purchases" component={Purchases} options={options} />
+      <Stack.Screen name="Orders" component={Orders} options={options} />
     </Stack.Navigator>
   );
 };

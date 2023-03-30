@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 import color from '../../../styles/color';
 import font from '../../../styles/font';
 
-const purchaseItem = StyleSheet.create({
+const orderItem = StyleSheet.create({
   item: {
     width: '100%',
     paddingHorizontal: 28,
@@ -43,4 +43,4 @@ const purchaseItem = StyleSheet.create({
   },
 });
 
-export default purchaseItem;
+export default orderItem;

@@ -1,4 +1,4 @@
-const purchases = [
+const orders = [
   {
     id: 1,
     store: 'Walmart',
@@ -81,4 +81,4 @@ const purchases = [
   },
 ];
 
-export default purchases;
+export default orders;

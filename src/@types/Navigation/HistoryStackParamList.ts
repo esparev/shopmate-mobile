@@ -3,7 +3,7 @@
  */
 type HistoryStackParamList = {
   History: undefined;
-  Purchases: undefined;
+  Orders: undefined;
 };
 
 export default HistoryStackParamList;
