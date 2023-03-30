@@ -8,10 +8,16 @@ const Stack = createStackNavigator();
  * HomeStackNavigator component for stack navigation
  * @returns JSX.Element
  */
-export const HomeStackNavigator = (): JSX.Element => {
+const HomeStackNavigator = (): JSX.Element => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
+      <Stack.Screen
+        name="Home"
+        component={Home}
+        options={{headerShown: false}}
+      />
     </Stack.Navigator>
   );
 };
+
+export default HomeStackNavigator;
