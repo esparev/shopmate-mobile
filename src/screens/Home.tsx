@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, Image, StatusBar} from 'react-native';
 import ScannedStatus from '../components/ScannedStatus';
+import color from '../styles/color';
 import icon from '../styles/icon';
 import home from './styles/home';
 
@@ -15,7 +16,7 @@ const Home = (): JSX.Element => {
     // Screen
     <View style={home.screen}>
       {/* StatusBar */}
-      <StatusBar backgroundColor="#00373E" barStyle="light-content" />
+      <StatusBar backgroundColor={color.green_300} barStyle="light-content" />
       {/* Header */}
       <View style={home.header}>
         {/* Welcome message */}
